@@ -1,0 +1,93 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$PYTHONPYCACHEPREFIX/
+*.so
+*.pyo
+*.pyd
+*.swp
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+logs/
+*.log
+*.out
+*.err
+nohup.out
+debug.log
+
+# IDE settings and workspace files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Django / Flask local settings
+instance/
+config.json
+*.sqlite3
+db.sqlite3
+*.db
+
+# Build, distribution, and packaging
+build/
+dist/
+*.egg-info/
+*.eggs/
+*.wheel
+
+# pytest, coverage, and testing
+.coverage
+.tox/
+noxfile.py
+nox/
+htmlcov/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PEP 582 (used by `pipx`)
+__pypackages__/
+
+# macOS / Windows OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Docker
+*.dockerignore
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignore `.env` files (environment variables)
+.env
+*.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+*.mp4
+#remove unessary file
+trained_model/*
+exported_model/*
+
+*.zip
