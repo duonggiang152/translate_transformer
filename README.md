@@ -3,4 +3,4 @@
 
 # dataset using https://huggingface.co/datasets/ncduy/mt-en-vi https://www.kaggle.com/datasets/tuannguyenvananh/iwslt15-englishvietnamese
 
-writing ui base on web (flask server web). The total website store in web_uis folder
+Ui are write on web (flask server web). The total website store in web_uis folder
